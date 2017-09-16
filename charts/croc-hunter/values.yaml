@@ -8,7 +8,7 @@ servicePort: 80
 containerPort: 8080
 component: "croc-hunter"
 replicas: 3
-image: "quay.io/dclassen/croc-hunter"
+image: "quay.io/dclassen/chunt"
 imageTag: "latest"
 imagePullPolicy: "Always"
 cpu: "10m"
